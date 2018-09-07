@@ -16,10 +16,12 @@
 
 ## 应用架构
 
-![应用架构](https://mararsh.github.io/qxsk9/qxsk-j2ee.png)
+![应用架构](https://mararsh.github.io/qxsk9/qxsk-structure.png)
+
 
 ## 实现架构
 
-![实现架构](https://mararsh.github.io/qxsk9/qxsk-structure.png)
+![实现架构](https://mararsh.github.io/qxsk9/qxsk-j2ee.png)
+
 
 
