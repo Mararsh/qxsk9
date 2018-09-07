@@ -17,6 +17,8 @@
 
 [《开发者指南》：https://mararsh.github.io/qxsk9/QXSK-DevGuide.pdf](https://mararsh.github.io/qxsk9/QXSK-DevGuide.pdf)
 
+[安卓应用：https://mararsh.github.io/qxsk9/BeidouView-android.apk](https://mararsh.github.io/qxsk9/BeidouView-android.apk)
+
 [更多资源：https://mararsh.github.io/qxsk9](https://mararsh.github.io/qxsk9)
 
 [云盘地址：https://pan.baidu.com/s/14mdaM6Vd_Ugu6aAnwfZkMA](https://pan.baidu.com/s/14mdaM6Vd_Ugu6aAnwfZkMA)
