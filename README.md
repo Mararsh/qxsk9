@@ -5,9 +5,17 @@
 
 ## 资源地址
 
-[用户手册：https://mararsh.github.io/qxsk9/QXSK-Platform-UserGuide.pdf](https://mararsh.github.io/qxsk9/QXSK-Platform-UserGuide.pdf)
+[《服务平台用户手册》：https://mararsh.github.io/qxsk9/QXSK-Platform-UserGuide.pdf](https://mararsh.github.io/qxsk9/QXSK-Platform-UserGuide.pdf)
 
-[开发者指南：https://mararsh.github.io/qxsk9/QXSK-DevGuide.pdf](https://mararsh.github.io/qxsk9/QXSK-DevGuide.pdf)
+[《安卓应用用户手册》：https://mararsh.github.io/qxsk9/BeidouView-android.pdf](https://mararsh.github.io/qxsk9/BeidouView-android.pdf)
+
+[《苹果客户端用户手册》：https://mararsh.github.io/qxsk9/BeidouView-ios.pdf](https://mararsh.github.io/qxsk9/BeidouView-ios.pdf)
+
+[《WebSerivces接口》：https://mararsh.github.io/qxsk9/QXSK-Platform-WebService.pdf](https://mararsh.github.io/qxsk9/QXSK-Platform-WebService.pdf)
+
+[《Web Socket协议》：https://mararsh.github.io/qxsk9/QXSK-Platform-WebSocket.pdf](https://mararsh.github.io/qxsk9/QXSK-Platform-WebSocket.pdf)
+
+[《开发者指南》：https://mararsh.github.io/qxsk9/QXSK-DevGuide.pdf](https://mararsh.github.io/qxsk9/QXSK-DevGuide.pdf)
 
 [更多资源：https://mararsh.github.io/qxsk9](https://mararsh.github.io/qxsk9)
 
