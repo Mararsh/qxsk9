@@ -5,11 +5,11 @@
 
 ## 资源地址
 
-[用户手册：https://github.com/Mararsh/qxsk9/QXSK-Platform-UserGuide.pdf](https://github.com/Mararsh/qxsk9/QXSK-Platform-UserGuide.pdf)
+[用户手册：https://mararsh.github.io/qxsk9/QXSK-Platform-UserGuide.pdf](https://mararsh.github.io/qxsk9/QXSK-Platform-UserGuide.pdf)
 
-[开发者指南：https://github.com/Mararsh/qxsk9/QXSK-DevGuide.pdf](https://github.com/Mararsh/qxsk9/QXSK-DevGuide.pdf)
+[开发者指南：https://mararsh.github.io/qxsk9/QXSK-DevGuide.pdf](https://mararsh.github.io/qxsk9/QXSK-DevGuide.pdf)
 
-[更多资源：https://github.com/Mararsh/qxsk9](https://github.com/Mararsh/qxsk9)
+[更多资源：https://mararsh.github.io/qxsk9](https://mararsh.github.io/qxsk9)
 
 [云盘地址：https://pan.baidu.com/s/14mdaM6Vd_Ugu6aAnwfZkMA](https://pan.baidu.com/s/14mdaM6Vd_Ugu6aAnwfZkMA)
 
