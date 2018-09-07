@@ -1,0 +1,53 @@
+ <html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+        body {font-size:14px;
+		/*
+		font-family:
+			 -apple-system, BlinkMacSystemFont,
+			 "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+			 "Helvetica Neue", sans-serif;	
+		*/
+		}
+        p.p1 {text-indent: 0em; font-size:17px;font-weight:bold; color:darkgreen}
+        p.p2 {text-indent: 0em; font-size:15px;font-weight:bold}
+        p.p3 {text-indent: 0em; font-size:14px;font-weight:bold}
+		.article {width: 900px; margin:0 auto;font-size:14px;font-weight:normal;}
+        .paragraph {text-indent: 2em; font-size:13px;}
+        .link {text-indent: 6em; font-size:13px;}
+        .pix {text-indent: 6em; }
+        .refer {text-indent: 6em; font-size:13px; color:darkblue}
+        ol.inside {list-style-position: inside; text-indent: 2em;}
+        .codes {font-size:14px; background-color:black; padding: 20px; color: white}
+		.table1 {width: 900px;font-size:14px; border-collapse:collapse; border:solid 1px;}
+		tr {border:solid#000 1px;}
+		td {border:solid#000 1px; }
+		.Header { font-weight:bold; text-align:center;}
+		.Data {font-weight:normal; text-align:left; }
+		ul.inside {list-style-position: inside; text-indent: 2em;}
+    </style>
+</head> 
+<body class="article"> </br>	
+				<div style="font-size:14px">
+			        <P>北斗应用并不为多数人所知，因此会有一些误读。以下针对一些已知的概念混淆进行解释：</P>
+                    <ol>
+                        <li><b>请区分北斗定位终端和常规定位终端。</b>北斗定位芯片日益广泛，智能终端通常是多种定位模式可选、在硬件层面实现自动切换，所以在公网覆盖下软件应用对于定位终端并没有特殊处理的需要。当定位终端包含北斗通信卡时，它就可以脱离公网而通过北斗卫星实现数据收发了，此时就需要相应的应用软件来收发和解析北斗数据。因此，北斗定位终端特指包含北斗定位芯片和北斗通信卡的数据终端。</li>
+                        <li><b>请区分北斗应用和非北斗应用。</b>装有北斗定位芯片而以公共网络收发数据，这是常规应用；定位和通信的数据通过北斗卫星收发，这是北斗应用。根本区别在于终端数据传输的方式而不是定位方式。这是狭隘区分法，会有人把凡是以北斗卫星定位的应用叫北斗应用。对于软件开发，我们用狭隘定义，常规应用不在我们目前的开发范围内。当我们谈到北斗应用时，是以数据终端不使用公网而使用北斗卫星收发数据为前提假设的。北斗应用的最佳场景是公网无法覆盖的荒郊野外。</li>
+                        <li><b>请区分终端和客户端。</b>定位数据来自终端，客户端是用来监视终端的，它们往往是在不同地点由不同的人持有。例如，驴友拿着终端（如北斗伴侣）四处晃悠，而他们的家人或者旅游局看着客户端关注他们的动向并且与他们实时对话。客户端本身不必要定位。北斗终端以北斗卫星收发数据，客户端总是在公网覆盖的区域内用常规网络来收发数据。</li>
+                        <li><b>请区分终端应用和客户端应用。</b>终端这一端本身可能有专用的应用，用来与客户端或者其它终端进行数据交换；客户端这一端也可能实现定位。终端应用着重于收集“我的哪里”的数据，客户端应用着重于监视“那些人在哪里”。</li>
+                        <li><b>请区分用户和终端。</b>在我们的系统中，“用户”是使用客户端的人。终端的使用者不在系统控制范围内。</li>
+                        <li><b>请区分客户端和手机。</b>客户端是用户登录系统使用功能的入口，不一定是手机。</li>
+                        <li><b>请区分用户和手机。</b>我们的系统是基于用户账号，“用户”与手机或者手机号没有必然的联系。用户可以用同一账号以任意客户端登录系统。</li>
+                        <li><b>请区分终端需求和客户端需求。</b>例如，终端之间需要彼此共享位置和彼此通信，这是终端需求，与客户端无关。例如，终端与客户端之间需要彼此共享位置，这就需要客户端也要实现定位。</li>
+                        <li><b>请评估客户端需求的必要性。</b>有的人可能会希望：客户端定位、客户端之间共享位置、客户端之间对话。“客户端”意味着常规网络和常规定位，目前已有大量的、满足这些需求的、成熟的应用（例如地图类、微信）。即使将来添加这些实现，也只是锦上添花。</li>
+                       <li><b>手机可以回复终端的短信吗？</b>我们支持从终端向手机直接发送短信，于是有用户希望能直接回复短信给终端。这个需求在技术上很容易实现，但是基于安全和性能的考虑，我们决定不支持。允许终端直接向手机发送消息，并不意味我们鼓励用户用短信方式在终端与手机之间通话。终端发往手机的短信应该用来应付紧急情况，即需要报警时可以把消息发往一个临时的手机号。终端与手机之间的对话，请使用我们的手机客户端。</li>
+                    </ol>
+			        <P>定位应用范围非常广，各类应用有不同的需求，我们的系统目前尽量做最大公约数，谋求一个稳定的内核和灵活扩展的架构。</P>
+					<p><font color="green"><b>最新版的安卓应用已实现三合一：既是服务平台的客户端、也可提供本地定位、同时提供北斗终端（北斗伴侣E200）的管理功能。</b></font></p>
+				</div>
+
+
+			
+</body> 
+</html>
